@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>いびき録音 プライバシーポリシー</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 42rem; margin: 0 auto; padding: 2rem 1rem 4rem;
+         font-family: system-ui, "Hiragino Sans", "Noto Sans JP", sans-serif;
+         line-height: 1.9; }
+  h1 { font-size: 1.5rem; }
+  h2 { font-size: 1.1rem; margin-top: 2.5rem; border-bottom: 1px solid #8883; padding-bottom: .3rem; }
+  .date { color: #888; font-size: .9rem; }
+  strong { font-weight: 600; }
+</style>
+</head>
+<body>
+
+<h1>「いびき録音」プライバシーポリシー</h1>
+<p class="date">最終更新日: 2026年9月25日</p>
+
+<p>
+Hissory &amp; Cossory Software(以下「当方」)は、Android アプリ「いびき録音」
+(パッケージ ID: <code>com.daizou.snore</code>、以下「本アプリ」)における利用者の情報の
+取り扱いについて、以下のとおり定めます。
+</p>
+
+<h2>1. 収集する情報</h2>
+<p>
+本アプリは、<strong>利用者の情報を収集・送信しません</strong>。
+当方はサーバーを運用しておらず、利用者の情報を受け取ることはありません。
+</p>
+
+<h2>2. 端末内で扱う情報</h2>
+<p>本アプリは、その機能のために以下の情報を<strong>利用者の端末内でのみ</strong>扱います。</p>
+<ul>
+  <li>
+    <strong>音声(録音データ)</strong><br>
+    マイクから入力された音量を監視し、利用者が設定したしきい値を超えた区間のみを
+    WAV ファイルとして録音します。録音ファイルは、他のアプリからアクセスできない
+    <strong>本アプリ専用の内部ストレージ領域</strong>にのみ保存されます。
+    端末外への送信、アップロード、バックアップは一切行いません。
+  </li>
+  <li>
+    <strong>設定値</strong><br>
+    録音の感度(しきい値)、無音で録音を区切る秒数、録音の保存期間などの設定を、
+    端末内の設定領域に保存します。
+  </li>
+</ul>
+<p>
+本アプリは、広告配信、アクセス解析、クラッシュレポートの送信をいずれも行いません。
+利用者を識別する ID の生成・利用も行いません。
+</p>
+
+<h2>3. 録音データの削除</h2>
+<ul>
+  <li>録音一覧の「削除」ボタンから、個別にいつでも削除できます。</li>
+  <li>「保存期間」設定(3/7/14/30日)を指定した場合、その期間を過ぎた録音は自動的に削除されます。</li>
+  <li>本アプリをアンインストールすると、録音ファイルと設定はすべて端末から削除されます。</li>
+</ul>
+
+<h2>4. 使用する権限</h2>
+<ul>
+  <li><strong>マイク(RECORD_AUDIO)</strong> — いびきの音量監視と録音のため。</li>
+  <li><strong>通知(POST_NOTIFICATIONS)</strong> — 監視中であることを常駐通知で表示するため。</li>
+  <li><strong>フォアグラウンドサービス(FOREGROUND_SERVICE / FOREGROUND_SERVICE_MICROPHONE)</strong>
+      — 画面を消した就寝中も録音を継続するため。</li>
+  <li><strong>ウェイクロック(WAKE_LOCK)</strong> — 画面消灯中も録音処理を維持するため。</li>
+  <li><strong>電池最適化の除外(REQUEST_IGNORE_BATTERY_OPTIMIZATIONS)</strong>
+      — 就寝中に OS によって録音が強制停止されるのを防ぐため。利用者が任意で許可する設定であり、
+      許可しなくても本アプリは動作します。</li>
+</ul>
+<p>これらの権限は、上記の目的以外には使用しません。</p>
+
+<h2>5. 第三者への提供</h2>
+<p>
+本アプリは利用者の情報を収集しないため、第三者へ提供することはありません。
+第三者の SDK・解析サービス・広告ネットワークは一切組み込んでいません。
+</p>
+
+<h2>6. children / 子どもの利用について</h2>
+<p>
+本アプリは 13 歳未満の子どもを対象として設計されたものではなく、
+子どもから意図的に情報を収集することはありません。
+</p>
+
+<h2>7. 本ポリシーの変更</h2>
+<p>
+本ポリシーを変更する場合は、本ページを更新し、最終更新日を改めます。
+</p>
+
+<h2>8. お問い合わせ</h2>
+<p>
+本アプリおよび本ポリシーに関するお問い合わせは、下記までご連絡ください。<br>
+Hissory &amp; Cossory Software<br>
+メール: <a href="mailto:hissorycossory@gmail.com">hissorycossory@gmail.com</a>
+</p>
+
+</body>
+</html>
